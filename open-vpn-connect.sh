@@ -41,7 +41,7 @@ fi
 # VPN_HOST="https://vpn.uci.edu"
 #
 # (required)
-VPN_HOST="IP_And_Port or Server_URL"
+VPN_HOST="<IP_And_Port or Server_URL>"
 
 #
 # Your VPN server's username.
@@ -49,7 +49,7 @@ VPN_HOST="IP_And_Port or Server_URL"
 # At UCI, we use your UCINetID (all lower-case) for this.
 #
 # (required)
-VPN_USER='Your_Username'
+VPN_USER="<Your_Username>"
 
 #
 # Your VPN server's password.
@@ -68,7 +68,7 @@ VPN_USER='Your_Username'
 # VPN_PASSWD=""
 #
 # (optional)
-VPN_PASSWD="Your_Password"
+VPN_PASSWD="<Your_Password>"
 
 #
 # VPN_GROUP
