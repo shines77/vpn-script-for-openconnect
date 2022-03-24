@@ -151,7 +151,7 @@ if [ "${numtuns}" -eq 0 ]; then
 		echo "`date`: tun1 openvpn interface created successfully." >> "${OC_LOG}" 2>&1
 		# we only want to copy over the temporary conf file if we were successful in
 		# connecting.  (If we copied over when we were *not* successful, we would end up
-		# (in the ucivpndown script) copying the wrong resolv.conf back to /etc/!)
+		# (in the open-vpn-disconnect.sh script) copying the wrong resolv.conf back to /etc/!)
 		cp /tmp/resolv.conf.tmp /tmp/resolv.conf
 	else
 		echo "`date`: Problems creating tun1 openvpn interface. Exiting 1." >> "${OC_LOG}" 2>&1
